@@ -1,6 +1,9 @@
+import { TextStyle } from '@shopify/polaris';
+import ShopData from '../components/graphql/ShopData';
+
 const Index = () =>(
     <div>
-        Example Shopify App
+        <ShopData></ShopData>
     </div>
 );
 
